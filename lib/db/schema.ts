@@ -1,7 +1,6 @@
 import {pgTable, text, uuid, integer, boolean, timestamp} from "drizzle-orm/pg-core";
 import {relations} from "drizzle-orm";
-import path from "path";
-import { create } from "domain";
+
 
 
 export const files = pgTable("files", {
